@@ -1,7 +1,7 @@
 import { ActionRowBuilder, ButtonBuilder, EmbedBuilder, ModalActionRowComponentBuilder, ModalBuilder, TextInputBuilder } from "@discordjs/builders";
-import { ButtonInteraction, ButtonStyle, ChatInputCommandInteraction, GuildTextBasedChannel, ModalMessageModalSubmitInteraction, parseEmoji, TextInputStyle, User } from "discord.js"
-import emojilib from "emojilib";
+import { ButtonInteraction, ButtonStyle, ChatInputCommandInteraction, GuildTextBasedChannel, ModalMessageModalSubmitInteraction, TextInputStyle, User } from "discord.js"
 
+const emojilib = require("emojilib");
 const interactions = new Map<User, [string, GuildTextBasedChannel, boolean]>();
 const emojis = [
     "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero",
