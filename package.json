@@ -1,0 +1,18 @@
+{
+  "name": "joe-polls",
+  "version": "1.0.0",
+  "description": "polls",
+  "main": "dist/index.js",
+  "repository": "https://github.com/honkling/joe-polls",
+  "author": "honkling",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "emojilib": "^3.0.11",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}
