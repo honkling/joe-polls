@@ -92,7 +92,7 @@ export async function sendPoll(
         .setDescription(message)
         .addFields({ name: "Choices", value: indexedChoices.join("\n") });
 
-    const sentMessage = await channel.send({ content: ping ? "<@!1124870561391190016>" : "", embeds: [embed] });
+    const sentMessage = await channel.send({ content: ping ? "<@&1124870561391190016>" : "", embeds: [embed] });
     
     for (let i = 0; i < choices.length; i++) {
         const emoji = emojis[i][1][0];
